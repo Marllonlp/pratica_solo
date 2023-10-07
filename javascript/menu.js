@@ -1,13 +1,13 @@
 var menu = `
 <nav class="navbar navbar-expand-lg bg-info-subtle">
 <div class="container">
-    <a class="navbar-brand ms-md-5" href="#">VIAGENS</a>
+    <a class="navbar-brand ms-md-5"><img src="imagens/logo.png" style="width: 90px;"></a>
     <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+    <div class="offcanvas offcanvas-end bg-info-subtle" tabindex="-1" id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -29,24 +29,16 @@ var menu = `
                         <a class="nav-link ms-md-4" href="contato.html">Contato</a>
                     </li>
                 </ul>
-                <!-- login 
-                <div class="d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="nav-link">Login</a>
-                    <a href="#" class="nav-link">Cadastro</a>
-                </div>
-            </div>
-            -->
         </nav>
 
         <style>
+            .navbar .nav-link {
+                color: black;
+            }
 
-        .navbar .nav-link {
-            color: black;
-        }
-    
-        .navbar .nav-link:hover {
-            color: blue;
-        }
+            .navbar .nav-link:hover {
+                color: blue;
+            }
         </style>
 `;
 document.addEventListener("DOMContentLoaded", function () {
