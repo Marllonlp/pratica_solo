@@ -1,0 +1,22 @@
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+#card-opcao {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  width: 20rem;
+}
+
+#card-opcao img {
+  margin-top: 6px;
+  width: 295px;
+  position: relative;
+  border-radius: 1rem;
+}
