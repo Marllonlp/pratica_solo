@@ -30,6 +30,7 @@ var menu = `
                     </li>
                 </ul>
         </nav>
+        
 
         <style>
             .navbar .nav-link {
@@ -40,6 +41,8 @@ var menu = `
                 color: blue;
             }
         </style>
+
+        
 `;
 document.addEventListener("DOMContentLoaded", function () {
     // Aguarde o DOM ser completamente carregado
