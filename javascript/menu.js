@@ -1,7 +1,7 @@
 var menu = `
-<nav class="navbar navbar-expand-lg bg-info-subtle">
+<nav class="navbar navbar-expand-lg">
 <div class="container">
-    <a class="navbar-brand ms-md-5"><img src="imagens/logo.png" style="width: 90px;"></a>
+    <a class="navbar-brand ms-md-5"><img src="imagens/logo.png" style="width: 70px;"></a>
     <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@ var menu = `
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-5">
                     <li class="nav-item">
                         <a class="nav-link ms-md-4" href="index.html">Home</a>
                     </li>
@@ -33,6 +33,10 @@ var menu = `
         
 
         <style>
+            .navbar{
+                height: 47px;
+                background-color: transparent;
+            }
             .navbar .nav-link {
                 color: black;
             }
@@ -41,7 +45,6 @@ var menu = `
                 color: blue;
             }
         </style>
-
         
 `;
 document.addEventListener("DOMContentLoaded", function () {
