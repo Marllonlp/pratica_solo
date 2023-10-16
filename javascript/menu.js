@@ -35,14 +35,15 @@ var menu = `
         <style>
             .navbar{
                 height: 47px;
-                background-color: transparent;
+                background-color: #142c44;
+                
             }
             .navbar .nav-link {
-                color: black;
+                color: white;
             }
 
             .navbar .nav-link:hover {
-                color: blue;
+                color: black ;
             }
         </style>
         
