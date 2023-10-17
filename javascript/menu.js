@@ -4,13 +4,13 @@ var menu = `
     <a class="navbar-brand ms-md-5"><img src="imagens/logo.png" style="width: 70px;"></a>
     <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class=" navbar-toggler-icon"></span>
     </button>
 
-    <div class="offcanvas offcanvas-end bg-info-subtle" tabindex="-1" id="offcanvasNavbar"
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
         <nav class="navbar navbar-expand-lg">
@@ -33,10 +33,13 @@ var menu = `
         
 
         <style>
-            .navbar{
-                height: 47px;
+            .navbar {
+                height: 50px;
                 background-color: #142c44;
                 
+            }
+            .offcanvas{
+                background-color: #142c44;
             }
             .navbar .nav-link {
                 color: white;
