@@ -43,7 +43,7 @@ var menu = `
             }
 
             .navbar .nav-link:hover {
-                color: black ;
+                color: black;
             }
         </style>
         
