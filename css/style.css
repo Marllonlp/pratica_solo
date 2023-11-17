@@ -26,3 +26,12 @@ color: rgb(59, 2, 2);
   width:auto;
   border-radius: 1rem;
 }
+ @media (max-width:993px) {
+     #card-opcao{
+      margin-left: 9px;
+      }
+        .row {
+        margin-left: 15px;
+      }
+
+    }
