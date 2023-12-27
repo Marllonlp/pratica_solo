@@ -1,10 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
-color: rgb(59, 2, 2);
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .c-item {
   height: 480px;
 }
@@ -16,13 +26,17 @@ color: rgb(59, 2, 2);
 }
 
 #card-opcao {
-  margin-left: 35px;
-  margin-bottom: 20px;
-  width: 20rem;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
 }
- 
+
 #card-opcao img {
-  margin-top: 8px;
-  width:auto;
-  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
 }
