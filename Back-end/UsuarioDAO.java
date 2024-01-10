@@ -8,7 +8,7 @@ class UsuarioDAO {
     public UsuarioDAO() {
         try {
             // Substitua pelos detalhes de conexão do seu banco de dados
-            String url = "jdbc:mysql://localhost:3306/MeuBancoDeDados";
+            String url = "jdbc:mysql://localhost:3306/agencia_de_viagens";
             String user = "root";
             String password = "password";
 
