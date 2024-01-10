@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.sql.*;
+import java.util.*;
 
 public class AgenciaDeViagens {
 
@@ -84,4 +85,22 @@ public class AgenciaDeViagens {
         System.out.println("Telefone: (38) 456-7890");
         System.out.println("E-mail: viagensexpress@gmail.com\n");
     }
+
+    public void createUsuario(Usuario usuario) {
+        try {
+            String sql = "INSERT INTO Usuario (ID_do_usuario, Nome, Email, Senha) VALUES (?, ?, ?, ?)";
+            PreparedStatement stmt = connection.prepareStatement(sql);
+            stmt.setInt(1, usuario.getId());
+            stmt.setString(2, usuario.getNome());
+            stmt.setString(3, usuario.getEmail());
+            stmt.setString(4, usuario.getSenha());
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
+
+
+
+
